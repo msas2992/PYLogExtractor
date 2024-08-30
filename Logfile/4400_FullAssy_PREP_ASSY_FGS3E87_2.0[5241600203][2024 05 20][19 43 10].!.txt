@@ -1,0 +1,133 @@
+********************************************************************************
+UUT Report
+Tester ID (PC name):          EMSPNEFJ-054-20
+Work Order:                   58389
+Model:                        C:\4400SensorPrepAssyTest\ProcessModel\FisherIBUProcessModel.seq 2021/07/15 20:57:50
+StationSWcfg:                 10-2017
+Fixture:                      GG87285-01 (RunCount: 3215)
+FixtureHWcfg:                 GG87285
+DAQID:                        USB-6363 (Mass Termination); 1E49AE7
+Sequence File:                C:\4400SensorPrepAssyTest\4400_FullAssy_PREP_ASSY_FGS3E87_2.0.seq
+SeqFileHash:                  3a9c99944f3d5d0659cd6a8dd22cf30b
+Operation:                    PREP
+Site:                         PNE
+Serial Number:                5241600203
+Start Date:                   2024/05/20
+Start Time:                   19:43:10
+Operator:                     16021 (ControlExecFlow)
+Execution Time:               316.24754 seconds (5.3 minutes)
+Number of Results:            108
+UUT Result:                   Passed
+Part Number:                  GG79699X012 A
+********************************************************************************
+5.2 Electronic SN Verification          	passed
+ Get Info From QR code                  	done	SN:5241600203 PN:GG79702X012 rev:B
+ Verify Serial Number                   	passed	5241600203
+ Verify HW Rev                          	passed	B
+ Verify Main FCT Flag                   	passed
+ Verify Main Thermal Flag               	passed
+ Verify Reset Mfg Flag                  	passed	67
+ Verify reset Mfg Flag Backup           	passed	188
+5.3 Alarm State                         	passed
+ Verify Alarm Position High             	passed
+ Measure Loop Current                   	passed	20.161  	{LT 21}	mA
+ Measure Loop Curr_TripEnabled          	passed	22.145  	{21 GE}	mA
+ Measure Loop Curr_TripDisabled         	passed	20.160  	{LT 21}	mA
+ Verify Alert Enable Mask               	passed	FC780080000039000E01
+ Hardware Alerts - Byte 0 bit 2         	passed	0       	{0}
+ Hardware Alerts - Byte 0 bit 3         	passed	0       	{0}
+ Hardware Alerts - Byte 0 bit 4         	passed	0       	{0}
+ Hardware Alerts - Byte 0 bit 6         	passed	0       	{0}
+ Hardware Alerts - Byte 0 bit 7         	passed	0       	{0}
+ Hardware Alerts - Byte 1 bit 3         	passed	0       	{0}
+5.4 Output Current Accuracy             	passed
+ Measure Loop Current_4mA               	passed	4.050   	{3.8 4.2}	mA
+ Measure Loop Current_20mA              	passed	20.135  	{19.8 20.2}	mA
+ 5.4.2 Endpoints Calibration            	passed
+  Fix loop current to 4mA               	passed
+  Measure loop current @4mA             	done	4.01135928 mA
+  Fix loop current to 20mA              	passed
+  Measure loop current @20mA            	done	20.16592743333 mA
+  Write final loop offset               	passed	5556
+  Write final loop span                 	passed	112808
+  Read & verify final loop offset       	passed
+  Read & verify final loop offset checks	passed
+  Read & verify final loop span         	passed
+  Read & verify final loop span checksum	passed
+  Verify loop current @4mA              	passed	4.002   	{3.99 4.01}	mA
+  Verify loop current @20mA             	passed	20.007  	{19.99 20.01}	mA
+ 5.4.3 Output Testpoints Accuracy Check 	passed
+  3.5mA_Measure Loop Current            	passed	3.502   	{3 4}	mA
+  3.5mA_Check AO Readback Alert         	passed	0       	{0}
+  3.8mA_Measure Loop Current            	passed	3.801   	{3.6 4}	mA
+  3.8mA_Check AO Readback Alert         	passed	0       	{0}
+  8mA_Measure Loop Current              	passed	8.003   	{7.8 8.2}	mA
+  8mA_Check AO Readback Alert           	passed	0       	{0}
+  12mA_Measure Loop Current             	passed	12.004  	{11.8 12.2}	mA
+  12mA_Check AO Readback Alert          	passed	0       	{0}
+  16mA_Measure Loop Current             	passed	16.006  	{15.8 16.2}	mA
+  16mA_Check AO Readback Alert          	passed	0       	{0}
+  20.5mA_Measure Loop Current           	passed	20.507  	{20.3 20.7}	mA
+  20.5mA_Check AO Readback Alert        	passed	0       	{0}
+  22mA_Measure Loop Current             	passed	22.007  	{21.25 22.75}	mA
+  22mA_Check AO Readback Alert          	passed	0       	{0}
+  Verify loop current_high              	passed	22.099  	{21 GT}	mA
+  Verify loop current_low               	passed	3.162   	{LT 3.6}	mA
+5.5 Input Voltage Monitoring Test       	passed
+ Verify Input Voltage_18                	passed	17.885  	{17.64 18.36}	V
+ Verify Input Voltage_30                	passed	29.876  	{29.4 30.6}	V
+5.6 STARV Test(Pre-pot Only)            	passed
+ Measure Volt STARV (J4 Pin 12)_high    	passed	3.381   	{3.06 3.74}	V
+ Measure Volt STARV (J4 Pin 12)_low     	passed	0.003   	{LT 0.3}	V
+5.7 Hall Sensor Input Test              	passed
+ Read the raw hall count                	passed	5021    	{4700 5700}	counts
+5.8 Limit Switch                        	passed
+ Both_Open_Verify LS 1 Terminal         	passed	0       	{-0.25 0.25}	V
+ Both_Open_Verify LS 2 Terminal         	passed	0       	{-0.25 0.25}	V
+ LS1_Close_Verify LS 1 Terminal         	passed	3.368   	{3 3.6}	V
+ LS1_Close_Verify LS 2 Terminal         	passed	0       	{-0.25 0.25}	V
+ LS1_Open_Verify LS 1 Terminal          	passed	0       	{-0.25 0.25}	V
+ LS1_Open_Verify LS 2 Terminal          	passed	0       	{-0.25 0.25}	V
+ LS2_Close_Verify LS 1 Terminal         	passed	0.013   	{-0.25 0.25}	V
+ LS2_Close_Verify LS 2 Terminal         	passed	3.381   	{3 3.6}	V
+ LS2_Open_Verify LS 1 Terminal          	passed	0       	{-0.25 0.25}	V
+ LS2_Open_Verify LS 2 Terminal          	passed	0       	{-0.25 0.25}	V
+ Both_Close_Verify LS 1 Terminal        	passed	3.38    	{3 3.6}	V
+ Both_Close_Verify LS 2 Terminal        	passed	3.381   	{3 3.6}	V
+ Both_Open_Verify LS1 Terminal          	passed	0       	{-0.25 0.25}	V
+ Both_Open_Verify LS2 Terminal          	passed	0       	{-0.25 0.25}	V
+5.9 Pushbuttons                         	passed
+ 1_Verify Zero Button                   	passed	0       	{0}
+ 1_Verify Span Button                   	passed	0       	{0}
+ 2_Verify Zero Button                   	passed	0       	{0}
+ 2_Verify Span Button                   	passed	1       	{1}
+ 3_Verify Zero Button                   	passed	0       	{0}
+ 3_Verify Span Button                   	passed	0       	{0}
+ 4_Verify Zero Button                   	passed	1       	{1}
+ 4_Verify Span Button                   	passed	0       	{0}
+ 5_Verify Zero Button                   	passed	0       	{0}
+ 5_Verify Span Button                   	passed	0       	{0}
+ 6_Verify Zero Button                   	passed	1       	{1}
+ 6_Verify Span Button                   	passed	1       	{1}
+ 7_Verify Zero Button                   	passed	0       	{0}
+ 7_Verify Span Button                   	passed	0       	{0}
+5.10 LED                                	passed
+ 1_Verify STATUS_LED_RED                	passed	0       	{-0.25 0.25}	V
+ 1_Verify STATUS_LED_GREEN              	passed	0       	{-0.25 0.25}	V
+ 2_Verify STATUS_LED_RED                	passed	3.381   	{3.25 3.75}	V
+ 2_Verify STATUS_LED_GREEN              	passed	0.014   	{-0.25 0.25}	V
+ 3_Verify STATUS_LED_RED                	passed	0       	{-0.25 0.25}	V
+ 3_Verify STATUS_LED_GREEN              	passed	3.366   	{3.25 3.75}	V
+ 4_Verify STATUS_LED_RED                	passed	0       	{-0.25 0.25}	V
+ 4_Verify STATUS_LED_GREEN              	passed	0       	{-0.25 0.25}	V
+5.11 DIP Switches                       	passed
+ 1_Verify Protection DIP Switch locked  	passed	1       	{1}
+ 1_Verify Protection DIP Switch unlocked	passed	0       	{0}
+ 1_Verify Alarm DIP Switch low          	passed	0       	{0}
+ 1_Verify Alarm DIP Switch high         	passed	1       	{1}
+5.12 Set Mfg Flag                       	passed
+ Verify Mfg Flag                        	passed	71
+ Verify Mfg Flag Backup                 	passed	184
+
+DB enabled with Data Source=10.172.21.130"
+End UUT Report  2024/05/20 19:48:27 Malay Peninsula Summer Time  UTC 8

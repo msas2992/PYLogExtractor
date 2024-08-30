@@ -1,0 +1,28 @@
+********************************************************************************
+UUT Report
+Tester ID (PC name):          EMSPNEFJ-054-20
+Model:                        C:\4400SensorPrepAssyTest\ProcessModel\FisherIBUProcessModel.seq 2021/07/15 20:57:50
+StationSWcfg:                 10-2017
+Fixture:                      GG87285-01 (RunCount: 3428)
+FixtureHWcfg:                 GG87285
+DAQID:                        USB-6363 (Mass Termination); 1E49AE7
+Sequence File:                C:\4400SensorPrepAssyTest\4400_FullAssy_PREP_ASSY_FGS3E87_2.0.seq
+SeqFileHash:                  3a9c99944f3d5d0659cd6a8dd22cf30b
+Operation:                    PREP
+Site:                         PNE
+Serial Number:                5241600119
+Start Date:                   2024/05/29
+Start Time:                   15:50:44
+Operator:                     test (Operator)
+Execution Time:               90.678297 seconds (1.5 minutes)
+Number of Results:            4
+UUT Result:                   Passed
+Part Number:                  GG79699X012 A
+********************************************************************************
+5.2 Electronic SN Verification          	terminated
+ Get Info From QR code                  	done	SN:5241600119 PN:GG79702X012 rev:B
+ Verify Serial Number                   	 FAILED	        	{5241600119}
+ Verify HW Rev                          	 FAILED	        	{B}
+
+DB enabled with Data Source=10.172.21.130"
+End UUT Report  2024/05/29 15:59:16 Malay Peninsula Summer Time  UTC 8

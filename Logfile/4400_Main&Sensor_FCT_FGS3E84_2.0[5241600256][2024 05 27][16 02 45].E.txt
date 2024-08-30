@@ -1,0 +1,35 @@
+********************************************************************************
+UUT Report
+Tester ID (PC name):          EMSPNEFJ-054-20
+Model:                        C:\4400SensorPrepAssyTest\ProcessModel\FisherIBUProcessModel.seq 2021/07/15 20:57:50
+StationSWcfg:                 10-2017
+Fixture:                      GG87282-01 (RunCount: 2077)
+FixtureHWcfg:                 GG87282
+DAQID:                        USB-6363 (Mass Termination); 1E49AE7
+Sequence File:                C:\4400Main&SensorFCT\4400_Main&Sensor_FCT_FGS3E84_2.0.seq
+SeqFileHash:                  4e80b314148e19a07be92e9881fd8fef
+StipuliFileRev:               stipuli_FGS3E84.csv;
+StipuliHash:                  650b913f1c10b4fbf4f97d70bc009e66
+Operation:                    FCT
+Site:                         PNE
+Serial Number:                5241600256
+Start Date:                   2024/05/27
+Start Time:                   16:02:45
+Operator:                     retest (Operator)
+Execution Time:               15.67392 seconds (0.3 minutes)
+Number of Results:            9
+UUT Result:                   Error, Invoke Node Error calling method HartCSharpDriver.SendHartCommand.closePort, (System.ArgumentNullException: Key cannot be null. Parameter name: key) System.ArgumentNullException in Close HART Port.vi->Close HART Port.vi.ProxyCaller LabVIEW:  A .NET exception occurred in an external assembly. For information about correcting this error, copy the following exception (in bold), and search the Microsoft Developer Network (MSDN) Web site or the Web for a possible explanation. ========================= LabVIEW:  A .NET exception occurred in an external assembly. For information about correcting this error, copy the following exception (in bold), and search the Microsoft Developer Network (MSDN) Web site or the Web for a possible explanation. At step 'Close Hart Port' in seq 'MainSequence' [Error Code: 1172, User-defined error code.]
+Part Number:                  GG79702X012 B
+********************************************************************************
+5.2 Power Up and Supply Voltage Check   	failed
+ Verify Current                         	 FAILED	0.000   	{3.15 22.8}	mA
+ Voltage Check_Vbulk                    	 FAILED	0.345   	{8.9 9.05}	V
+ Voltage Check_3.7V                     	 FAILED	0.000   	{3.338 4.08}	V
+ Voltage Check_D3.4V                    	 FAILED	0.001   	{3.03 3.71}	V
+ Voltage Check_A3.4V                    	 FAILED	0.001   	{3.03 3.71}	V
+ Voltage Check_A2.5V                    	 FAILED	-0.001  	{2.38 2.63}	V
+ Voltage Check_A1.8V                    	 FAILED	0.000   	{1.71 1.89}	V
+ Voltage Check_MREF1.25V                	 FAILED	0.000   	{1.19 1.31}	V
+
+DB enabled with Data Source=10.172.21.130"
+End UUT Report  2024/05/27 16:03:02 Malay Peninsula Summer Time  UTC 8
